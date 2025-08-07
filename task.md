@@ -27,8 +27,8 @@
 
 #### ✅ **Reda**
 
-* Test a function `absolute(n)`
+* Test a function `devide(a,b)`
   → Returns the absolute value of a number
-  → Example: `absolute(-5) → 5`, `absolute(3) → 3`
+  → Example: `devide(4/2) → 2`, `devide(25/5) → 5`
 
 
