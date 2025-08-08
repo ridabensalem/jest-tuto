@@ -1,4 +1,4 @@
-const { add, subtract, multiply } = require('../src/math');
+const { add, subtract, multiply, isEven } = require('../src/math');
 // expect is an assertion. 
 
 test('adds 1 + 2 to equal 3', () => {

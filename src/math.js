@@ -9,6 +9,9 @@ function subtract(a, b) {
 function multiply(a, b) {
     return a * b;
 }
+function isEven(n){
+    return n % 2 == 0 ? true : false;
+}
 
 
-module.exports = { add, subtract, multiply };
+module.exports = { add, subtract, multiply, isEven };
