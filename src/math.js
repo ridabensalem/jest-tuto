@@ -10,8 +10,11 @@ function multiply(a, b) {
     return a * b;
 }
 function isEven(n){
-    return n % 2 == 0 ? true : false;
+    return n % 2 === 0 ? true : false;
 }
 
+function isOdd(n){
+    return n % 2 !== 0 ? true : false;
+}
 
-module.exports = { add, subtract, multiply, isEven };
+module.exports = { add, subtract, multiply, isEven, isOdd };
