@@ -1,4 +1,4 @@
-const {city}=require("./object");
+const {city}=require("../src/object");
 test("test the City object values", () => {
   expect(city).toBeDefined();
   expect(city.name).toBe("New York");

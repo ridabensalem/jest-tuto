@@ -4,5 +4,6 @@ test("test the number variables", () => {
   expect(numberOne).toBeGreaterThan(0);
   expect(numberTwo).toBeLessThan(3);
   expect(numberThree).toBeGreaterThanOrEqual(3);
-  expect(numberFour).toBeCloseTo(4.1);
+  expect(numberThree).toBeLessThanOrEqual(3);
+  expect(numberFour).toBeCloseTo(4.005);
 });
