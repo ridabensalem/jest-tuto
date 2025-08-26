@@ -5,4 +5,7 @@ const islamPrayers = [
   "Maghrib",
   "Isha"
 ];
-module.exports={islamPrayers}
+const  fruits = ["Apple", "Banana", "Grape"];
+const 
+
+module.exports={islamPrayers, fruits}

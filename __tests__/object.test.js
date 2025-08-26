@@ -1,4 +1,4 @@
-const {city}=require("../src/object");
+const {city, pirate}=require("../src/object");
 test("test the City object values", () => {
   expect(city).toBeDefined();
   expect(city.name).toBe("New York");
@@ -18,4 +18,10 @@ test("test the object matchers", () => {
     country: "Italy"
   });
   expect(italianCity).toHaveProperty("continent", "Europe");
+
 });
+
+test ("Test the pirates object Matchers", () => {
+  expect (pirate).toMatchObject({ name: "luffy", fruit: "Gomu Gomu no Mi", type: "zone" });
+  pirate["bounty"] = 3000000000;
+})

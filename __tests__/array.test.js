@@ -1,6 +1,10 @@
-const {islamPrayers}=require('../src/array');
+const {islamPrayers, fruits}=require('../src/array');
 
 test("test the Islamic prayers array", () => {
   expect(islamPrayers).toHaveLength(5);
   expect(islamPrayers).toContain("Fajr");
+});
+
+test ("Test that Fruits array contain Grape", () =>{
+  expect(fruits).toContain("Grape");
 });

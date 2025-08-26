@@ -3,4 +3,6 @@ const city = {
   population: 8419600,
   country: "USA"
 };
-module.exports={city}
+
+const pirate={ name: "luffy", fruit: "Gomu Gomu no Mi", type: "zone" }
+module.exports={city, pirate}
