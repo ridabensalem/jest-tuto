@@ -15,23 +15,19 @@ const calculateRemainingSalt = jest.fn((initialSalt, streams, lossPerStream) => 
 });
 ```
 
-Expected answer should be less than 10. Test it with console logs and see how many kg remain.
-
 ---
 
 ### 2️⃣ *The Average Speed Trick*
 
-Rida rides a donkey 🫏 to town at **10 km/h** and returns at **15 km/h**.
-Find the **average speed** of the whole trip using a mock function `getAverageSpeed`.
+Rida rides a horse  🫏 to town that is far away by 20 KM , if you know that the horse was galloping,   he arrives during around 48min or 0.8 h  what is the averge speed , and mock this function `getAverageSpeed`.
 Remember — it’s **not** `(10 + 15)/2` 😉.
 
 ```js
-const getAverageSpeed = jest.fn((speed1, speed2) => {
+const getAverageSpeed = jest.fn((avergeSpeed) => {
   // smart formula here
 });
 ```
 
-Hint: Use total distance / total time formula.
 
 ---
 
@@ -78,7 +74,7 @@ const getDrawingArea = jest.fn((a, b, c) => {
   // apply Heron's formula
 });
 ```
-
+Heron formula : Area = √(s(s-a)(s-b)(s-c))
 ---
 
 ### 2️⃣ *Rain Drops Collection*
